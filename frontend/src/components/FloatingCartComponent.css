@@ -1,0 +1,25 @@
+/* src/components/FloatingCartButton.css */
+.floating-cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c8102e;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .floating-cart button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .floating-cart button:hover {
+    color: #fff;
+    background-color: #32cd32;
+  }
+  

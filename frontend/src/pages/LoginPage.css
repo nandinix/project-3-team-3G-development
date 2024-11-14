@@ -1,0 +1,154 @@
+.panda-title
+{
+    /* font-family: Arial, sans-serif; */
+    font-size: 2em; 
+    margin: 0; 
+}
+
+
+.login-container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    color: #fff;
+    /* font-family: 'Comic Sans MS', cursive; */
+
+}
+
+
+.logo-header 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo 
+{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+
+.login-box 
+{
+    display: flex;
+    flex-direction: column; 
+    background-color: #D1282E;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 80%; 
+    max-width: 700px;
+}
+
+
+.login-section 
+{
+    margin: 15px 0; 
+    text-align: center;
+    font-weight: bold;
+    color:  #D1282E;
+}
+
+
+.login-form 
+{
+    background-color: #D1282E;
+    /* color: #333; */
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    flex: 1; 
+}
+
+
+.login-form h2 
+{
+    margin-bottom: 20px;
+}
+
+
+.login-form input 
+{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.login-options 
+{
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 20px; 
+}
+
+
+.login-toggle 
+{
+    padding: 10px;
+    background-color:lightgrey;
+    /* color: #fff; */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1; 
+    margin: 0 5px; 
+}
+
+
+.login-toggle.active 
+{
+    background-color: white;
+}
+
+
+.sign-in-btn 
+{
+    width: 80%;
+    padding: 10px;
+    background-color:#759f5d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover{
+    background-color: 	#49633a;
+}
+
+/* remain user friendly on small devices */
+@media (max-width: 600px) 
+{
+    .login-box {
+        width: 95%;
+    }
+
+    .login-section {
+        font-size: 1.2em; 
+    }
+
+    .sign-in-btn {
+        font-size: 1em; 
+    }
+}
+
+
+
+
+
+
+
+
+
+

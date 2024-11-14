@@ -1,0 +1,119 @@
+.menu-management {
+    display: flex;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    text-align: center;
+  }
+  
+  .form-section,
+  .table-section,
+  .edit-section {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ccc;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table thead {
+    background-color: #D1282E;
+    color: white;
+  }
+  
+  button {
+    background-color: #D1282E;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: rgb(141, 24, 24);
+  }
+  
+  form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  .table-section {
+    margin-bottom: 20px;
+  }
+  
+  .table-section table td img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+  }
+  
+  .edit-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-section form input {
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  .edit-section h2 {
+    text-align: center;
+  }
+  
+  .edit-section button {
+    background-color: #D1282E;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-section button:hover {
+    background-color: rgb(141, 24, 24);
+  }
+  
+  @media (max-width: 768px) {
+    .menu-management {
+      flex-direction: column;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  
+    .table-section table td img {
+      max-width: 40px;
+      max-height: 40px;
+    }
+  }
+  

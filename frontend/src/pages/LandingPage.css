@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.landing-page {
+    background-image: url('../assets/pandaFood4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* overflow: hidden;  */
+}
+
+.content-overlay {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 30px 50px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #d33;
+    margin: 0;
+}
+
+h2.title{
+    color:#333;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #333;
+    margin: 10px;
+}
+
+.order-now-btn {
+    background-color: #d33;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.order-now-btn:hover {
+    background-color: #a30;
+}
+
+.weather-box {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

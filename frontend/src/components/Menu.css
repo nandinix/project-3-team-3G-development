@@ -1,0 +1,18 @@
+/* src/styles/Menu.css */
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  

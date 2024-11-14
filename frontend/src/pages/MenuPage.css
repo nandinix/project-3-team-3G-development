@@ -1,0 +1,144 @@
+/* src/pages/MenuPage.css */
+
+.menu-page {
+    font-family: 'Poppins', sans-serif;
+    /* padding: 20px; */
+    padding-bottom: 10px;
+  }
+  
+  .menu-page h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Tabs Styling */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab.active {
+    background-color:#d33;
+    color: white;
+  }
+  
+  .tab:hover {
+    background-color: #ddd;
+  }
+  
+  /* Grid Layout for Menu Items */
+  .menu-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+  }
+  
+  .menu-item {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .menu-item p {
+    color: #666;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .menu-item .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Quantity input and button styling */
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .menu-item button {
+    background-color: #d33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item button:hover {
+    background-color: #a30;
+  }
+  
+  /* Cart Button Styling */
+  .cart-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  #d33;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-button:hover {
+    background-color: #a30;
+  }
+  
